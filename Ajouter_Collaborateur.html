@@ -1,0 +1,78 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/formulaire.css">
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="js/Ajouter_Collaborateur.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
+</head>
+<body>
+  <h1>Nouveau Collaborateur</h1>
+  <div class="container">
+
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+      <fieldset>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Nom</label>
+          <div class="col-md-10 inputGroupContainer">
+            <div class="input-group">
+              <input  name="nom" placeholder="Nom" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" >Prénom</label>
+          <div class="col-md-10 inputGroupContainer">
+            <div class="input-group">
+              <input name="prenom" placeholder="Prénom" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Adresse</label>
+          <div class="col-md-10 inputGroupContainer">
+            <div class="input-group">
+              <textarea class="form-control" name="adresse" placeholder="Adresse"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Date de naissance</label>
+          <div class="col-md-10 inputGroupContainer">
+            <div class="input-group">
+              <input name="date_naissance" placeholder="Date de naissance" class="form-control"  type="text">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Numéro de sécurité sociale</label>
+          <div class="col-md-10 inputGroupContainer">
+            <div class="input-group">
+              <input name="secu" placeholder="Numéro de sécurité sociale" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label"></label>
+          <div class="col-md-4">
+            <button class="edit btn btn-outline-success" type="submit">Créer</button>
+          </div>
+        </div>
+
+      </fieldset>
+    </form>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div >
+          <button class="right btn btn-outline-success" type="submit">Ajouter un nouveau collaborateur</button>
+        </div>
+    </div>
+    <h1>Les collaborateurs</h1>
+
+    <div class="container">
+      <form class="form-inline my-2 my-lg-1">
+        <span class="left">Rechercher par nom ou prénom : </span>
+        <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+        <div class="input-group mr-sm-4">
+          <span class="input-group-addon">
+            <input type="checkbox">
+          </span>
+          <label>Voir les collaborateurs désactivés</label>
+        </div>
+      </form>
+      <form class="form-inline my-2 my-lg-0">
+        <span class="left">Filtrer par département : </span>
+        <div class="dropdown">
+
+          <select class="custom-select">
+            <option selected>Tous</option>
+            <option value="1">Comptabilité</option>
+            <option value="2">Informatique</option>
+            <option value="3">Je sais plus quoi</option>
+          </select>
+      </div>
+    </form>
+
+
+            <div class="row">
+              <div class="col case">
+                <form class="form-inline">
+                  <h4 class="bold">Alice Pefefen</h4>
+                  <button class="edit btn btn-outline-success" type="submit">Editer</button>
+                </form>
+                <img src="https://randomuser.me/api/portraits/women/19.jpg" alt="Photo">
+                <p>Fonction : </p>
+                <p>Département :</p>
+                <p>Email :</p>
+                <p>Téléphone :</p>
+              </div>
+
+              <div class="col case">
+                <form class="form-inline">
+                  <h4 class="bold">Jake Walter</h4>
+                  <button class="edit btn btn-outline-success" type="submit">Editer</button>
+                </form>
+                <img src="https://randomuser.me/api/portraits/men/74.jpg" alt="Photo">
+                <p>Fonction : </p>
+                <p>Département :</p>
+                <p>Email :</p>
+                <p>Téléphone :</p>
+              </div>
+
+              <div class="col case">
+                <form class="form-inline">
+                  <h4 class="bold">Ricky Olson</h4>
+                  <button class="edit btn btn-outline-success" type="submit">Editer</button>
+                </form>
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Photo">
+                <p>Fonction : </p>
+                <p>Département :</p>
+                <p>Email :</p>
+                <p>Téléphone :</p>
+              </div>
+            </div>
+
+</div>
+
+
+  </body>
+</html>
