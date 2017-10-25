@@ -40,6 +40,11 @@ img{
 .case {
   box-shadow: 0px 0px 2px 2px #ccc;
 }
+
+.row {
+  padding-top: 50px;
+}
+
 .contactList{
   padding:50px;
 }
